@@ -1,21 +1,17 @@
 # gitful-things
 some needful things for git
 
-
 ## setting-up Git(hub)
 
 ### set username and email and tokens
 git config --global user.email "claus@kovacs.cf"
-
 git config --global user.name "Claus Kovacs"
-
 git config --global github.token ghp_Token
 
 Tokens may be generated at https://github.com/settings/tokens
 
 ### set ssh for Github (Ubuntu 22.04.1 LTS)
 `cd ~/.ssh`
-
 `ssh-keygen -o -t rsa -C "claus@kovacs.cf"`
 
 Press <ENTER> for the next three prompts (which saves the generated key into *~/.ssh* and sets no (optional) passphrase). The shell log should look something like:
